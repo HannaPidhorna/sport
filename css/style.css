@@ -1,0 +1,805 @@
+@media (min-width: 992px){
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap !important;
+        flex-flow: row nowrap !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+    }
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+        -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: none !important;
+    }
+}
+
+.section1 {
+    position: relative; 
+    width: 100%;
+    min-height: 1000px;
+    background: url(../img/IMG-header1.png) no-repeat center/cover;
+}
+
+.section1::before {
+    content:"";
+    display: block;
+    position: absolute;
+    background: rgb(38, 45, 73,0.95);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+   
+} 
+
+/* .section1::before {
+    content:"";
+    display: block;
+    position: absolute;
+    background: radial-gradient(rgb(48, 59, 100) 20%, transparent 60%)no-repeat right;
+    background: url(../img/radial_gradient.png) no-repeat right;
+    background-size: 50%;
+    width: 50%;
+    height: 50%;
+    top: -20%;
+    right: 0;
+    z-index: -1;
+} */
+ 
+nav a {
+    padding: 100px;
+}
+
+nav ul {
+    padding: 100px;
+}
+
+nav  ul li>a {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 9%;
+    font-weight: 800;
+    font-size: 50px; 
+   
+}
+
+h1 p {
+    color: white;
+    font-weight: 200;
+}
+
+
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    /* padding-bottom: 200px; */
+    
+}
+
+h2 p {
+    color: grey;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+}
+
+.carousel-caption h5 {
+    padding-bottom: 50px;
+}
+
+
+.section2 {
+    padding-bottom: 200px;
+   
+}
+
+.section2::before {
+    content:"";
+    display: block;
+    position: absolute;
+    background: linear-gradient(to right bottom, rgb(40, 46, 70,0.95) 50%,transparent 50%) no-repeat top;
+    background-size: 100%;
+    width: 100%;
+    min-height: 15%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* red block */
+.red_carousel h6 span {
+    display: block;
+    width: 25px;
+    height: 30px;
+    background-image: url(../img/red_logo3.png);
+    margin-right: 10px;
+
+}
+
+.red_carousel h6 .sp1 {
+    background-position: 0;
+}
+
+.red_carousel h6 .sp2 {
+    background-position: 53px;
+}
+
+.red_carousel h6 .sp3 {
+    background-position: 103px;
+}
+
+
+
+
+/* block green */
+.block_green {
+    background: url(../img/block2_bg_green.png) no-repeat center/cover;
+    min-height: 270px;
+    position: relative;
+}
+
+.membership {
+    content:"";
+    position: absolute;
+    background: rgb(76, 175, 80, 0.9);
+    background-size: 100%;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.block_green:hover .membership{
+    opacity: 0;
+}
+
+.register {
+    content:"";
+    position: absolute;
+    background: rgb(176, 186, 177,0.9);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.block_green:hover .register {
+    opacity: 1;
+}
+
+.p1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.p2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+
+}
+
+.p3 {
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.p4 {
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin-left: 50px;
+}
+
+
+/* services */
+
+.section2_1 {
+    padding-bottom: 200px;
+}
+
+.cardio1 {
+    position: relative;
+    padding: 150px;
+  
+}
+
+.cardio1 span {
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-image: url(../img/services_logo.png);
+    margin: 0 auto;
+   
+}
+
+.cardio1 span {
+    background-position: 0;
+}
+
+
+.cardio2 {
+    content:"";
+    position: absolute;
+    padding-top: 100px;
+    border: 2px solid #c0bfbf;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.cardio1:hover .cardio2 {
+    opacity: 0;
+}
+.cardio3 {
+    content:"";
+    position: absolute;
+    padding-top: 50px;
+    border: 2px solid #00a8ff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.cardio1:hover .cardio3 {
+  opacity: 1;
+}
+.cardio3 span {
+    transform: translate(0, -5vh);
+}
+
+.yoga1 {
+    position: relative;
+    padding: 150px;
+}
+
+.yoga1 span {
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-image: url(../img/services_logo.png);
+    margin: 0 auto;
+   
+}
+
+.yoga1 span {
+    background-position: 130px;
+}
+
+.yoga2 {
+    content:"";
+    position: absolute;
+    padding-top: 100px;
+    border: 2px solid #c0bfbf;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.yoga1:hover .yoga2 {
+    opacity: 0;
+}
+.yoga3 {
+    content:"";
+    position: absolute;
+    padding-top: 50px;
+    border: 2px solid #00a8ff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.yoga3 span {
+    transform: translate(0, -5vh);
+}
+
+.yoga1:hover .yoga3 {
+  opacity: 1;
+}
+
+
+.training1 {
+    position: relative;
+    padding: 150px;
+} 
+
+.training1 span {
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-image: url(../img/services_logo.png);
+    margin: 0 auto;
+   
+}
+
+.training1 span {
+    background-position: 70px;
+}
+
+.training2 {
+    content:"";
+    position: absolute;
+    padding-top: 100px;
+    border: 2px solid #c0bfbf;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.training1:hover .training2 {
+    opacity: 0;
+}
+.training3 {
+    content:"";
+    position: absolute;
+    padding-top: 50px;
+    border: 2px solid #00a8ff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.training1:hover .training3 {
+  opacity: 1;
+}
+
+.training3 span {
+    transform: translate(0, -5vh);
+}
+/* section3 */
+.section3 {
+    background-color:#f7f7f7;
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+ 
+}
+
+.section3::before {
+    content:"";
+    display: block;
+    position: absolute;
+    background: linear-gradient(to right bottom, transparent 50%, #f7f7f7 50%) no-repeat top;
+    background-size: 100%;
+    width: 100%;
+    min-height: 15%;
+    left: 0;
+    right: 0;
+    top: -150px;
+    z-index: -1;
+}
+/* block eva */
+.team_eva {
+    min-height: 600px;
+    background: url(../img/eva_img1.png)no-repeat top/contain;
+}
+
+.eva{
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.eva::after {
+    content:"";
+    display: block;
+    position: absolute;
+    background: url(../img/eva_bg2.png)no-repeat;
+    width: 130px;
+    min-height: 130px;
+    top: 55%;
+    left: 35%;
+    z-index: 1;
+
+}
+
+.eva1 {
+    content:"";
+    position: absolute;
+    width: 100%;
+    min-height: 50%;
+    right: 0;
+    left: 0;
+
+}
+
+.eva:hover .eva1{
+    opacity: 0;
+}
+
+.eva2 {
+    content:"";
+    position: absolute;
+    background: rgb(2, 154, 232, 0.75);
+    width: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+
+}
+
+.eva:hover .eva2 {
+    opacity: 1;
+}
+
+.eva_text1 {
+    padding-top: 50px;
+    padding-bottom: 105px;
+}
+
+.eva_text2 {
+    padding-bottom: 50px;
+
+}
+
+.team_eva .btn {
+    margin-left: 110px;
+} 
+
+/* block nick */
+.team_nick {
+    min-height: 600px;
+    background: url(../img/nick_bg1.png)no-repeat top/contain;
+}
+
+.nick{
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.nick::after {
+    content:"";
+    display: block;
+    position: absolute;
+    background: url(../img/nick_bg2.png)no-repeat;
+    width: 130px;
+    min-height: 130px;
+    top: 55%;
+    left: 35%;
+    z-index: 1;
+
+}
+
+.nick1 {
+    content:"";
+    position: absolute;
+    width: 100%;
+    min-height: 50%;
+    right: 0;
+    left: 0;
+
+}
+
+.nick:hover .nick1{
+    opacity: 0;
+}
+
+.nick2 {
+    content:"";
+    position: absolute;
+    background: rgb(2, 154, 232, 0.75);
+    width: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+
+}
+
+.nick:hover .nick2 {
+    opacity: 1;
+}
+
+.nick_text1 {
+    padding-top: 50px;
+    padding-bottom: 105px;
+}
+
+.nick_text2 {
+    padding-bottom: 50px;
+
+}
+
+.team_nick .btn {
+    margin-left: 110px;
+} 
+
+
+/* block john */
+.team_john {
+    min-height: 600px;
+    background: url(../img/john_bg1.png)no-repeat top/contain;
+}
+
+.john{
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.john::after {
+    content:"";
+    display: block;
+    position: absolute;
+    background: url(../img/john_bg2.png)no-repeat;
+    width: 130px;
+    min-height: 130px;
+    top: 55%;
+    left: 35%;
+    z-index: 1;
+
+}
+
+.john1 {
+    content:"";
+    position: absolute;
+    width: 100%;
+    min-height: 50%;
+    right: 0;
+    left: 0;
+
+}
+
+.john:hover .john1{
+    opacity: 0;
+}
+
+.john2 {
+    content:"";
+    position: absolute;
+    background: rgb(2, 154, 232, 0.75);
+    width: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+
+}
+
+.john:hover .john2 {
+    opacity: 1;
+}
+
+.john_text1 {
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+.john_text2 {
+    padding-bottom: 50px;
+
+}
+
+.team_john .btn {
+    margin-left: 110px;
+} 
+
+
+/* section4 */
+
+.section4 {
+    background: url(../img/pr_bg1.png) no-repeat center/cover;
+    width: 100%;
+    min-height: 1500px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    position: relative;
+     
+}
+
+.section4::before {
+    content:"";
+    display: block;
+    position: absolute;
+    background: radial-gradient(rgb(128, 128, 128,0.5) 20%, rgb(0, 0, 0, 0.6) 60%)no-repeat center/cover;
+    width: 100%;
+    min-height: 1500px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+   
+}
+
+.yoga_pilates {
+    background-color:#00a8ff;
+    min-height: 400px;
+    
+}
+
+.yoga_button {
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+   
+}
+
+.yoga_button .btn {
+    margin: 10px;
+}
+
+.yoga_text {
+    padding-bottom: 50px;
+}
+
+.list {
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+
+.cardio_training{
+    background-color: #bbbbbb;
+    min-height: 400px;
+}
+
+.cardio_text {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+/* section5 */
+
+.section5 {
+    background-color:#00a8ff;
+    width: 100%;
+    min-height: 500px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.bird1 img {
+    padding-bottom: 100px;
+}
+
+.bird1 h3{
+    padding-bottom: 150px;
+}
+
+
+/* section6 */
+.section6_footer {
+    background: url(../img/IMG-header1.png) no-repeat center/cover;
+    width: 100%;
+    min-height: 700px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    position: relative;
+    
+ 
+}
+
+.section6_footer::before {
+    content:"";
+    display: block;
+    position: absolute;
+    background: rgb(38, 45, 73,0.50) no-repeat center/cover;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+  
+}
+
+
+/* .section6 {
+    padding-bottom: 100px;
+} */
+
+.reserve {
+    min-height: 400px;
+}
+
+.reserve .btn {
+    margin: 0;
+}
+
+.reserve_text {
+    padding-bottom: 50px;
+
+}
+
+.opening_hours {
+    min-height: 400px;
+   
+}
+
+.opening_hours h3 {
+    padding-bottom: 50px;
+}
+
+.hours1 {
+    margin: 20px;
+}
+
+.hours2 {
+    margin: 20px;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+
+ .sprites .logo li {
+     list-style-type: none; 
+}
+
+
+ .sprites .logo li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/sprites_freebg.png);
+       
+}
+
+ .sprites .logo li > a{
+	background-position: 0;
+}
+ .sprites .logo li + li > a{
+	background-position: 90px;
+}
+ .sprites .logo li + li +li > a{
+	background-position: 45px;
+}
+
+.copyright {
+    font-size: 20px;
+    margin-left: 700px;
+
+}
